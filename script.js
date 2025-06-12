@@ -96,5 +96,6 @@ document.writeln("<h1>OPERASI PERBANDINGAN</h1>");
 // !== tidak sama dengan dan tidak sama tipe
 let banding = 5 == "5"; //  True
 banding = 5 === 5; // True
+banding = 5 === "5"; // False
 banding = 5 < 10; // True
 banding = 5 > 10; // False
