@@ -85,3 +85,16 @@ document.writeln("</br>");
 result1 = -result1; // -2
 document.writeln(result1);
 
+document.writeln("<h1>OPERASI PERBANDINGAN</h1>");
+// kurang dari < 
+// lebih dari >
+// kurang dari atau sama dengan <=
+// lebih dari atau sama dengan >=
+// sama dengan ==
+// sama dengan dan sama tipe ===
+// != tidak sama dengan
+// !== tidak sama dengan dan tidak sama tipe
+let banding = 5 == "5"; //  True
+banding = 5 === 5; // True
+banding = 5 < 10; // True
+banding = 5 > 10; // False
