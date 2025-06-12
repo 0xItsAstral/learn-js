@@ -56,7 +56,7 @@ document.writeln("<p>2 * 2 = " + result + "</p>");
 originalResult = result;
 
 // operator augmented asignment
-// note: fungsi result = result dapat di persingkat menjadi result += 
+// note: fungsi result = result dapat di persingkat menjadi result +=
 
 // let result = 1 + 2; // 3
 // document.writeln("<p>1 + 2 = " + result + "</p>");
@@ -71,3 +71,17 @@ originalResult = result;
 // originalResult = result;
 
 document.writeln("<h1>OPERASI UNARY</h1>");
+
+document.writeln("<P>Menandakan nilainy positif = +</P>");
+document.writeln("<P>Menandakan nilainy negatif = -</P>");
+document.writeln("<P>Increment, menaikkan 1 angka = ++</P>");
+document.writeln("<P>Decrement, menurunkan 1 angka = --</P>");
+
+let result1 = 1;
+result1++; // 2 dts
+document.writeln(result1);
+document.writeln("</br>");
+// mengconvesi nilai -/+
+result1 = -result1; // -2
+document.writeln(result1);
+
