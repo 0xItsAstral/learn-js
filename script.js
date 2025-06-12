@@ -34,4 +34,40 @@ document.writeln("Hidup: " + hidup);
 document.writeln("</br>");
 document.writeln("Status: " + status);
 
-// next operator mateatika pzn
+//  operator mateatika
+document.writeln("<h1>OPERASI MATEMATIKA</h1>");
+document.writeln("<P>PERTAMBAHAN = +</P>");
+document.writeln("<P>PENGURANGAN = -</P>");
+document.writeln("<P>PERKALIAN = *</P>");
+document.writeln("<P>EKPONENSIAL = **</P>");
+document.writeln("<P>PEMBAGIAN = /</P>");
+document.writeln("<P>BAGI HASIL = %</P>");
+
+let result = 1 + 2; // 3
+document.writeln("<p>1 + 2 = " + result + "</p>");
+let originalResult = result;
+
+result = result - 1; // 2
+document.writeln("<p>3 - 1  = " + result + "</p>");
+originalResult = result;
+
+result = result * 2; // 4
+document.writeln("<p>2 * 2 = " + result + "</p>");
+originalResult = result;
+
+// operator augmented asignment
+// note: fungsi result = result dapat di persingkat menjadi result += 
+
+// let result = 1 + 2; // 3
+// document.writeln("<p>1 + 2 = " + result + "</p>");
+// let originalResult = result;
+
+// result -= 1; // 2
+// document.writeln("<p>3 - 1  = " + result + "</p>");
+// originalResult = result;
+
+// result *= 2; // 4
+// document.writeln("<p>2 * 2 = " + result + "</p>");
+// originalResult = result;
+
+document.writeln("<h1>OPERASI UNARY</h1>");
