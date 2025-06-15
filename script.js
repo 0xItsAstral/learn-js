@@ -122,5 +122,11 @@ console.info(dataArray);
 dataArray.push("javascript");
 console.info(dataArray);
 
+// tipe data objec
 
-
+const orang = {
+  nama: "asgarul",
+  umur: 21,
+  negara: "ID",
+};
+console.table(orang);
