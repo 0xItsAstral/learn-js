@@ -81,12 +81,12 @@ let result1 = 1;
 result1++; // 2 dts
 document.writeln(result1);
 document.writeln("</br>");
-// mengconvesi nilai -/+
+// mengconversi nilai -/+
 result1 = -result1; // -2
 document.writeln(result1);
 
 document.writeln("<h1>OPERASI PERBANDINGAN</h1>");
-// kurang dari < 
+// kurang dari <
 // lebih dari >
 // kurang dari atau sama dengan <=
 // lebih dari atau sama dengan >=
@@ -99,3 +99,28 @@ banding = 5 === 5; // True
 banding = 5 === "5"; // False
 banding = 5 < 10; // True
 banding = 5 > 10; // False
+
+// String Template
+
+const template = `name : $(firstName) $(midleName) $(lastName)`;
+console.info(template);
+
+// multipel string
+
+let multiString = `
+name : asgarul
+age : 21
+gender : male
+
+`;
+
+// Tipe Data Array
+
+let dataArray = ["asgarul", "21", "male"];
+
+console.info(dataArray);
+dataArray.push("javascript");
+console.info(dataArray);
+
+
+
