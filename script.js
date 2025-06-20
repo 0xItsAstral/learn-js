@@ -157,3 +157,9 @@ confirm("yakin?"); //pop up dengan true/false
 
 // undefined kosong
 // null nilainya kosong
+
+// ternary operator
+
+const jumlah = 50;
+let pernyataan = nilai >= 50 ? "banyak orang" : "sedikit orang";
+document.writeln(`<p>${pernyataan}</p>`);
