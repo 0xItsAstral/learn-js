@@ -154,3 +154,6 @@ prompt("nama kamu?"); //pop up dengan input
 confirm("yakin?"); //pop up dengan true/false
 
 */
+
+// undefined kosong
+// null nilainya kosong
