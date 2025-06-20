@@ -146,4 +146,11 @@ if (nilai >= 70) {
 } else {
   document.writeln("<p>kamu tidak lulus</p>");
 }
+// pop up
+/*
 
+alert("hallo"); // memberikan popup
+prompt("nama kamu?"); //pop up dengan input
+confirm("yakin?"); //pop up dengan true/false
+
+*/
