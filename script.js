@@ -131,4 +131,19 @@ const orang = {
 };
 console.table(orang);
 
+let aku = {};
+aku["nama lengkap"] = "muhammad asgarul tsani";
+console.info(aku["nama lengkap"]);
+
 let kosong = {};
+
+// if else exspression
+
+let nilai = 10;
+
+if (nilai >= 70) {
+  document.writeln("<p>kamu lulus</p>");
+} else {
+  document.writeln("<p>kamu tidak lulus</p>");
+}
+
