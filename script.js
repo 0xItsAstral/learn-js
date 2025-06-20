@@ -122,7 +122,7 @@ console.info(dataArray);
 dataArray.push("javascript");
 console.info(dataArray);
 
-// tipe data objec
+// tipe data object
 
 const orang = {
   nama: "asgarul",
@@ -130,3 +130,5 @@ const orang = {
   negara: "ID",
 };
 console.table(orang);
+
+let kosong = {};
